@@ -1,10 +1,10 @@
-# Select all the customers which name is Jamie
+/* Select all the customers which name is Jamie */
 SELECT * FROM customer WHERE first_name = 'Jamie';
 
-# Select all the customers which name is Jamie and last name is Rice
+/* Select all the customers which name is Jamie and last name is Rice */
 SELECT * FROM customer WHERE first_name = 'Jamie' and last_name = 'Rice';
 
-# Examples:
+/* Examples: */
 SELECT * FROM customer
 	WHERE first_name = 'Jared';
 
@@ -24,7 +24,7 @@ SELECT * FROM customer
 	WHERE store_id = 1 AND address_id > 5;
 
 
-# Callenges
+/* Callenges */
 SELECT email FROM customer
 	WHERE first_name = 'Nancy' AND last_name = 'Thomas';
 
