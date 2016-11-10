@@ -1,0 +1,1 @@
+CREATE TABLE link_copy (LIKE link);
